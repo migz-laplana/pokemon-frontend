@@ -4,7 +4,7 @@
 
 1. `$ docker-compose run --rm pokemon-frontend yarn`
 2. `$ docker-compose up --build` to launch app 
-4. hit up localhost:5000
+4. hit up localhost:8080
 
 
 ### Lints and fixes files
