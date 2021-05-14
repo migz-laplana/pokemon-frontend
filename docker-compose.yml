@@ -3,10 +3,11 @@ version: "3.8"
 services:
   pokemon-frontend:
     build: .
-    volumes:
-      - ".:/pokemon-frontend"
     ports:
       - 8080:8080
+    volumes:
+      - .:/pokemon-frontend
+      - packages:/pokemon-frontend/node_modules
 
 volumes:
   packages:
