@@ -1,6 +1,5 @@
-FROM node:15.5.0
+FROM node:lts-alpine3.13
 
-RUN mkdir /pokemon-frontend
 WORKDIR /pokemon-frontend
 
 CMD ["yarn", "serve"]
